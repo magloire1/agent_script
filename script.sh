@@ -1,5 +1,11 @@
 #!/hin/bash
 
+if 
+	[ ${UID} -ne 0 ]
+then	
+	echo "You need root access"
+fi
+
 
 lscpu
 cat /etc/*release
