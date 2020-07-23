@@ -6,4 +6,4 @@ cat /etc/*release
 nproc
 lsblk
 uname -r
-
+echo "Everything when successfully"
